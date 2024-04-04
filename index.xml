@@ -33,6 +33,16 @@
     </item>
     
     <item>
+      <title>Markdown</title>
+      <link>https://example.com/post/markdown/</link>
+      <pubDate>Thu, 04 Apr 2024 14:33:01 +0300</pubDate>
+      <guid>https://example.com/post/markdown/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Язык разметки Markdown&lt;/strong&gt;
+Markdown - язык разметки текстов. Такие тексты легко писать и читать. Их можно без труда сконвертировать в HTML. Большинство программистов предпочитают Markdown для написания документации, описаний своих проектов, написания блогов и так далее.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Git</title>
       <link>https://example.com/post/git/</link>
       <pubDate>Wed, 13 Mar 2024 18:26:49 +0300</pubDate>
@@ -54,6 +64,16 @@ Android, Ruby on Rails, Drupal, Wine, Chromium, Compiz Fusion, jQuery, PHP, Medi
       <guid>https://example.com/post/%D0%BC%D0%BE%D1%8F-1-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Моя первая неделя&lt;/strong&gt;
 Моя прошедшая неделя была очень насыщенной и продуктивной в плане получения новых знаний по операционным системам. Также было проделано много работы для выполнения лабораторных работ Nº5 и Nº6. Про каждую из них я расскажу более подробно.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Моя 2 Неделя</title>
+      <link>https://example.com/post/%D0%BC%D0%BE%D1%8F-2-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/</link>
+      <pubDate>Wed, 13 Mar 2024 18:25:15 +0300</pubDate>
+      <guid>https://example.com/post/%D0%BC%D0%BE%D1%8F-2-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Моя вторая неделя&lt;/strong&gt;
+Сегодня я подготовила пост по моей второй неделе.За эту неделю я выполнила еще одну лабораторную работу под номером 9.&lt;/p&gt;
 </description>
     </item>
     
@@ -288,7 +308,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-482976315&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-742563891&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -298,7 +318,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-482976315&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-742563891&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
